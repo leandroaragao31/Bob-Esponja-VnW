@@ -54,7 +54,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    font-size: 1.5vw
+    font-size: 1.5vw;
+    cursor:pointer;
 }
 
 .container_header input {
@@ -237,6 +238,7 @@ body {
     width: 13vw;
     font-size: 1rem;
     font-weight: 300;
+    text-align: center;
     border-radius: 0 0 20px 20px;
     position: absolute;
     color: #E2EFF4;
@@ -252,6 +254,7 @@ body {
     height: 10vh;
     width: 13vw;
     font-size: 1rem;
+    text-align: center;
     border-radius: 0 0 20px 20px;
     position: absolute;
     color: #E2EFF4;
@@ -267,6 +270,7 @@ body {
     height: 10vh;
     width: 13vw;
     font-size: 1rem;
+    text-align: center;
     border-radius: 0 0 20px 20px;
     position: absolute;
     color: #E2EFF4;
@@ -282,6 +286,7 @@ body {
     height: 10vh;
     width: 13vw;
     font-size: 1rem;
+    text-align: center;
     border-radius: 0 0 20px 20px;
     position: absolute;
     color: #E2EFF4;
@@ -363,16 +368,28 @@ body {
         text-align: center;
     }
 
+    .container_main_text ul{
+        border:solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        height: 100%;
+    }
+
     .container_main_text li {
         font-size: 5vw;
-        text-align: right;
+        text-align: left;
+        padding: 2vw;
+        border:solid;
+        width: 60%;
         color: green;
     }
 
 
     .container_main_text li:hover {
         cursor: pointer;
-        padding: 0;
+        padding: 2vw;
         background-color: #FEBD81;
         opacity: 0.6;
         height: 5vh;
@@ -445,6 +462,14 @@ body {
     border-radius: 0 0 10px 10px;
     opacity: 0.6;
 
+}
+
+.container_footer p{
+    font-size:2.5vw;
+}
+
+.container_footer img{
+    width: 5vw;
 }
 }
 
